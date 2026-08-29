@@ -48,8 +48,16 @@ nav {
 
 img {
     transition: transform 0.2s;
+    max-width: 500px;
+    height: auto;
 }
 
 img:hover {
     transform: scale(1.1);
+}
+
+p {
+    max-width: 600px;
+    margin: 0 auto;
+    font-size: 20px;
 }
